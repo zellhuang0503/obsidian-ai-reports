@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "9e14a8df-926d-4f00-bddc-bf7cb8d211ab",
+      "agentId": "main",
+      "name": "ai-morning-report-daily",
+      "description": "每日 AI 晨報自動生成 + Telegram 通知 (6:30 AM 台北時間)",
+      "enabled": true,
+      "createdAtMs": 1772939109797,
+      "updatedAtMs": 1773185765448,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 6 * * *",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "執行今日 ($(date +\\%Y-\\%m-\\%d)) AI 晨報自動化任務。\\n\\n請依序執行：\\n1. cd /home/node/.openclaw/workspace/skills/ai-morning-report\\n2. ./scripts/search-daily.sh 進行搜尋\\n3. 確認報告已生成於 /mnt/f/Obsidian_New_Vault/AI-Reports/daily/\\n4. ./scripts/deploy-to-website.sh $(date +\\%Y-\\%m-\\%d) 部署到官網\\n5. 部署完成後，讀取 /tmp/morning-report-summary-$(date +\\%Y-\\%m-\\%d).txt\\n6. 將摘要內容透過 Telegram 發送給用戶\\n\\n摘要格式包含：\\n- 今日重點標題\\n- 3 則精選新聞標題\\n- 完整報告連結\\n- Hashtag\\n\\n請務必在部署成功後發送 Telegram 通知！",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "8524758447"
+      },
+      "state": {
+        "nextRunAtMs": 1773268200000,
+        "lastRunAtMs": 1773185657277,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 108171,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 3,
+        "lastDelivered": true,
+        "lastError": "⚠️ ✉️ Message failed"
+      }
+    },
+    {
+      "id": "b5fe6349-ea9c-4b85-8c8a-3f1325888591",
+      "name": "weekly-report-starter",
+      "enabled": true,
+      "createdAtMs": 1773185212374,
+      "updatedAtMs": 1773185212374,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * 0",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "啟動週報 Workflow！"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "8524758447"
+      },
+      "state": {
+        "nextRunAtMs": 1773568800000
+      }
+    },
+    {
+      "id": "7d45ceb5-777c-4f9d-a300-a97a3badf8ef",
+      "name": "daily-backup",
+      "enabled": true,
+      "createdAtMs": 1773207738101,
+      "updatedAtMs": 1773207738101,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "執行每日備份腳本：/home/node/.openclaw/workspace/skills/backup/scripts/backup.sh"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1773255600000,
+        "runningAtMs": 1773207773670
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+﻿---
+title: "AI 科技晨報 | 2026-03-04"
+date: "2026-03-04"
+description: "DeepSeek V4 即將登場，AI 軍備競賽進入新階段。Anthropic 登頂 App Store，OpenAI 五角大廈合約引發用戶出走潮。"
+---
+
+# 🌅 AI 科技晨間匯報 | 2026-03-04
+
+> 📅 報告日期：2026年3月4日（星期二）
+> 🌍 資料時間範圍：過去 **24-48 小時**精選
+> 🎯 今日主題：**DeepSeek V4 即將登場，AI 軍備競賽進入新階段**
+
+---
+
+## 🔥 重點頭條
+
+### 🚀 DeepSeek V4 即將發布：中國 AI 國家隊的「兩會獻禮」
+
+據《金融時報》報導，DeepSeek 計劃在中國「兩會」期間（3月4日開始）發布其最新旗艦模型 **V4**。這將是 DeepSeek 自 2025 年 1 月 R1 模型震撼全球以來的首次重大更新。
+
+**核心亮點：**
+- **1 萬億參數規模**，但每個 token 僅激活 320 億參數（稀疏架構）
+- **原生多模態能力**：支援圖片、影片和文字生成
+- **與華為、寒武紀等國產晶片商深度合作優化**
+- **預計在雙 RTX 4090 或單張 RTX 5090 上可運行**
+
+**為什麼重要**：
+這不僅是一次模型更新，更是中國 AI 戰略的宣示。DeepSeek V4 選在「兩會」期間發布，明顯帶有國家級 AI 冠軍的政治意涵。更值得關注的是，DeepSeek 這次**未向美國晶片商提供早期訪問權限**，而是優先與華為等國產供應商合作——這標誌著中美 AI 供應鏈脫鉤正在加速。
+
+對開發者而言，V4 的「本地可運行」特性將大幅降低使用門檻。如果傳聞屬實，這可能是第一個能在消費級顯卡上流暢運行的萬億參數模型。
+
+- 來源：[PYMNTS](https://www.pymnts.com/artificial-intelligence-2/2026/deepseek-poised-to-unveil-latest-ai-model/)、[Evolink AI](https://evolink.ai/blog/deepseek-v4-release-window-prep)
+
+---
+
+### 🚀 Anthropic 登頂 App Store：OpenAI 五角大廈合約引發用戶出走潮
+
+一個意想不到的轉折：Anthropic 的 Claude 在週末登上 Apple App Store 免費榜首，將 ChatGPT 擠到第二位。這一切的導火線，竟是 OpenAI 執行長 Sam Altman 宣布與美國國防部簽訂高達 **2 億美元**的合約。
+
+**事件時間線：**
+- OpenAI 取代 Anthropic 成為五角大廈 AI 供應商
+- 國防部長 Pete Hegseth 曾威脅 Anthropic：若拒絕將 AI 用於「所有合法用途」（包括監控和自主武器），將終止合約並列為國安風險
+- Anthropic CEO Dario Amodei 公開拒絕：「威脅無法改變我們的立場」
+- 川普總統在 Truth Social 稱 Anthropic 為「激進左翼 AI 公司」，下令聯邦機構在六個月內淘汰其技術
+
+**為什麼重要**：
+這是 AI 產業「價值觀之戰」的具體化。用戶正在用行動投票——Claude 的活躍用戶自年初以來增長超過 **60%**，每日註冊量翻了四倍。這顯示市場對「有原則的 AI 公司」存在真實需求，而不僅是追求最強性能。
+
+- 來源：[Yahoo Finance](https://finance.yahoo.com/news/anthropic-claude-overtakes-chatgpt-app-185525722.html)
+
+---
+
+## 🏢 大模型更新
+
+### Claude Opus 4.6 全面解析：100 萬 token 上下文 + Agent 團隊
+
+Anthropic 在 2 月初發布的 Claude Opus 4.6 帶來了多項突破：
+
+- **100 萬 token 上下文窗口**（Beta）：首次在 Opus 級別開放
+- **Agent Teams**：多個 AI Agent 協調完成複雜專案
+- **安全研究能力**：在測試中發現 500+ 個未知零日漏洞
+- **定價**：$5/百萬輸入 token，$25/百萬輸出 token
+
+**💡 這意味著什麼**：Anthropic 正在從「對話式 AI」轉向「自主工作系統」。Agent Teams 的推出意味著 AI 不再只是回答問題，而是能夠像真正的工程團隊一樣分工協作。
+
+- 來源：[Linos AI](https://linos.ai/technology/latest-ai-models-comparison-february-2026/)
+
+### GPT-5.3-Codex 正式上線 GitHub Copilot
+
+OpenAI 的 GPT-5.3-Codex 於 2 月 9 日正式向所有 Copilot 用戶開放（Pro、Pro+、Business、Enterprise）。這是首個將 Codex 和 GPT-5 訓練堆疊合併的模型：
+
+- 比 GPT-5.2-Codex 快 **25%**
+- 在 SWE-Bench Pro 和 Terminal-Bench 2.0 上達到 SOTA
+- 專為長時間運行的 Agent 編碼任務設計
+
+- 來源：[Linos AI](https://linos.ai/technology/latest-ai-models-comparison-february-2026/)
+
+---
+
+## 🤖 AI Agents 最新動態
+
+### ServiceNow 推出「自主勞動力」平台
+
+ServiceNow 在 2 月 26 日正式推出 **Autonomous Workforce** 平台，這不是聊天機器人升級，而是能獨立完成真實工作的「AI 專家」系統。
+
+**首個上線專家：Level 1 IT 服務台 AI**
+- 自主處理密碼重置、軟體存取請求、網路故障排除
+- 聲稱可自主解決 **90%** 的員工 IT 請求
+- 比人類代理快 **99%**
+
+CVS Health 已成為早期客戶，目標是讓臨床醫師和藥劑師專注於病患，而非行政工作。
+
+- 來源：[Clawdbot](https://clawdbot2.in/latest-ai-agents-news-march-2026/)
+
+### Salesforce Agentforce：18 億美元 ARR，22,000 筆交易
+
+Salesforce 最新財報顯示，其 Agentforce 平台年化經常性收入達到 **18 億美元**，單季完成超過 **22,000 筆交易**，季增近 50%。
+
+更驚人的數字：平台單季處理了 **11.14 萬億個 token**——這不是測試，而是企業在生產環境中的大規模使用。
+
+**💡 這意味著什麼**：「Agentic 企業」已不再是概念，而是實實在在的營收項目。AI Agent 正在從實驗走向核心業務。
+
+- 來源：[Clawdbot](https://clawdbot2.in/latest-ai-agents-news-march-2026/)
+
+### Meta 傳以 20-30 億美元收購 Manus
+
+Meta 據報正收購新加坡 AI 新創 **Manus**——這家因「通用自主 Agent」而走紅的公司，在特定基準測試中表現優於 OpenAI 的 DeepResearch。
+
+收購後，Manus 技術將整合進 Meta AI 和 WhatsApp 商業工具，為龐大的消費者用戶群帶來 Agent 能力。
+
+- 來源：[Clawdbot](https://clawdbot2.in/latest-ai-agents-news-march-2026/)
+
+---
+
+## 💰 產業投資
+
+### 2026 年 AI 融資狂潮：17 家美國新創已獲超 1 億美元
+
+僅僅兩個月，已有 17 家美國 AI 新創完成超過 1 億美元的巨額融資：
+
+| 公司 | 金額 | 估值 | 領投方 |
+|:---|:---|:---|:---|
+| Anthropic | $30B | $380B | 多機構 |
+| ElevenLabs | $500M | $11B | Sequoia |
+| Runway | $315M | $5.3B | General Atlantic |
+| Baseten | $300M | $5B | IVP, CapitalG |
+| Fundamental | $255M | $1.4B | Oak HC/FT |
+
+**關鍵趨勢**：
+- 種子輪和 A 輪規模暴增：超過 40% 的早期投資流向 1 億美元以上輪次
+- 企業級 AI 基礎設施成為投資重點
+- 戰略投資者（Nvidia、Salesforce Ventures）積極參與
+
+- 來源：[TechCrunch](https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/)
+
+### Waymo 完成 160 億美元融資，估值達 1,260 億美元
+
+Alphabet 的自動駕駛部門 Waymo 在 2 月初完成 **160 億美元**融資，由 Dragoneer、DST Global 和 Sequoia 領投，估值達到 **1,260 億美元**。
+
+這是自動駕駛領域史上最大規模的私募融資之一，顯示投資人相信自動駕駛正進入可規模化、真實影響的階段。
+
+- 來源：[SF Bay Area Times](https://www.sfbayareatimes.com/posts/san-francisco-ai-startup-funding-surge-february-2026)
+
+---
+
+## 🔬 研究與技術突破
+
+### MIT 開發蛋白質藥物設計 AI，可節省數十億研發成本
+
+MIT 研究人員開發了一款生成式 AI 模型，能夠預測合成蛋白質如何折疊並與生物標靶相互作用，大幅減少昂貴的實驗室試錯。
+
+這項技術可能為製藥公司節省數十億美元，加速癌症、自體免疫疾病和罕見遺傳病的治療開發。
+
+- 來源：[Mean CEO Blog](https://blog.mean.ceo/new-ai-model-releases-news-march-2026/)
+
+### Nvidia 發布「Vera Rubin」平台，鎖定萬億參數模型
+
+在 CES 2026 上，Nvidia 推出了以發現暗物質的天文學家命名的 **Vera Rubin** 平台，包含 H300 GPU 和專用 AI 晶圓廠，專為萬億參數模型設計。
+
+這標誌著 AI 訓練基礎設施進入新階段——未來的模型競賽將是「誰能先拿到 H300」的軍備競賽。
+
+- 來源：[Mean CEO Blog](https://blog.mean.ceo/new-ai-model-releases-news-march-2026/)
+
+---
+
+## ⚖️ 政策與監管
+
+### 歐洲監管機構加強對 xAI Grok 的審查
+
+英國資訊專員辦公室（ICO）在 2 月 3 日宣布對 Grok 進行調查，愛爾蘭資料保護委員會（DPC）也在 2 月 17 日啟動正式調查，焦點是 Grok 生成「真實人物性化圖像」的能力。
+
+xAI 已收緊圖像編輯政策並實施地理封鎖，但監管壓力仍在增加。
+
+- 來源：[Mean CEO Blog](https://blog.mean.ceo/new-ai-model-releases-news-march-2026/)
+
+### 多國政府禁用 DeepSeek
+
+義大利、丹麥、捷克等國已禁止政府機構使用 DeepSeek 模型，理由是資料安全和網路安全疑慮。這些禁令不影響商業使用，但顯示地緣政治競爭正影響 AI 採用決策。
+
+- 來源：[Mean CEO Blog](https://blog.mean.ceo/new-ai-model-releases-news-march-2026/)
+
+---
+
+## 📋 今日重點摘要
+
+| 類別 | 今日最大看點 | 脈絡連接 |
+|:---|:---|:---|
+| 🏢 大模型 | DeepSeek V4 即將發布（1萬億參數） | 中美 AI 供應鏈脫鉤加速 |
+| 🤖 AI Agents | ServiceNow、Salesforce 大規模部署 | 從實驗走向生產環境 |
+| 💰 投資 | Anthropic $30B、Waymo $16B | AI 基礎設施和自動駕駛受追捧 |
+| ⚖️ 政策 | 歐洲加強監管、多國禁用 DeepSeek | AI 地緣政治化加劇 |
+| 🔄 市場 | Claude 登頂 App Store | 用戶重視 AI 公司價值觀 |
+
+---
+
+## 💡 本日洞察
+
+**我們正在見證 AI 產業的「價值觀分化」**：
+
+一方面，DeepSeek V4 和華為的合作顯示「國家級 AI 冠軍」模式正在成形；另一方面，Anthropic 因堅持原則而獲得用戶用腳投票的支持。
+
+這意味著未來的 AI 競爭不只是技術和成本的較量，更是**價值觀和信任**的競爭。對企業和開發者而言，選擇 AI 供應商將越來越像選擇商業夥伴——你必須認同他們的行事方式。
+
+同時，AI Agent 正在從「酷炫演示」變成「真實營收」。ServiceNow 的 90% 自主解決率、Salesforce 的 18 億美元 ARR，都證明這個領域已經跨過了「概念驗證」階段。
+
+**對讀者的建議**：
+- 關注 DeepSeek V4 的實際表現，特別是在國產晶片上的效能
+- 評估你使用的 AI 工具是否符合你的價值觀
+- 開始思考 AI Agent 如何整合進你的工作流程——這不再是「未來趨勢」，而是「現在進行式」
+
+---
+
+*本報告由 AI 自動生成，資料截至 2026-03-04 06:30 (Asia/Shanghai)*
