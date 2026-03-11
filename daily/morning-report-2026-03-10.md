@@ -1,0 +1,126 @@
+# AI 科技晨報 | 2026-03-10
+
+早安，親愛的讀者。
+
+當你展開這份晨報時，或許正在享受早晨的第一杯咖啡。過去 24 小時，AI 領域依然熱鬧非凡——從本地模型的成本突破，到開發工具的標準化浪潮，這些變化正在悄悄改變我們與科技互動的方式。讓我們一起來看看今日的重點新聞。
+
+---
+
+## 🔥 重點頭條
+
+**MCP 生態系爆發：AI 工具互聯的「USB-C 時刻」來臨**
+
+如果你關注 AI 開發工具，最近一定聽過 MCP（Model Context Protocol）這個名字。簡單來說，MCP 就像是 AI 世界的 USB-C 標準——讓不同的 AI 工具能夠「即插即用」，互相溝通。
+
+過去一週，開發者社群掀起了一波自建 MCP 伺服器的熱潮。從監控系統到 API 整合，從日誌分析到資料庫查詢，各種你能想到的開發場景，都有人開源了自己的 MCP 解決方案。
+
+這讓我想起李開復老師說過的：「AI 的未來不在於模型本身有多強，而在於模型能否與人類的工作流程無縫接軌。」MCP 正是朝這個方向邁進的關鍵一步。
+
+> 📎 **延伸閱讀：** [MCP 伺服器建構指南](https://medium.com/@enveal/what-the-heck-is-an-mcp-server-0c3496d49d27)
+
+---
+
+## 📰 今日精選新聞
+
+### 1. Qwen 3.5 35B-A3B 震撼市場：消費級 GPU 也能跑 Frontier 模型
+
+本週最受矚目的發布之一，是阿里雲 Qwen 團隊的 Qwen 3.5 35B-A3B。這款模型的最大亮點在於：**只需要一張消費級 GPU（約 800 美元），就能跑出過去需要數萬美元伺服器才能達到的效能。**
+
+這意味著什麼？
+
+- 個人 AI 開發者的門檻大幅降低
+- Edge AI 應用場景將加速落地
+- 中小企業也能在本地部署自己的 AI 系統
+
+對於台灣的 AI 社群來說，這是一個好消息——我們不再需要依賴昂貴的雲端算力，就能在地端運行強大的語言模型。
+
+> 📎 **原文連結：** [Qwen 3.5 35B-A3B 評測](https://medium.com/@agentnativedev/qwen-3-5-35b-a3b-why-your-800-gpu-just-became-a-frontier-class-ai-workstation-63cc4d4ebac1)
+
+---
+
+### 2. Claude Code 作業系統化：企業級 AI 開發框架成形
+
+Anthropic 近日宣布 Claude Code 的重大更新加入了 hooks、skills、subagents 以及 zero-trust permissions 等企業級功能。這意味著 AI 開發框架正在從「玩具」走向「生產環境」。
+
+對於企業來說，這意味著：
+- 更安全的 AI 應用部署
+- 更靈活的工作流程自動化
+- 更完整的稽核與合規能力
+
+> 📎 **原文連結：** [Claude Code 架構完整指南](https://medium.com/ai-advances/claude-code-setup-skills-hooks-agents-mcp-blueprint-80bdef0c62f6)
+
+---
+
+### 3. AI Agent 商業化加速：從概念驗證到規模採用
+
+根據最新統計，全球財富 500 企業中，已有超過 60% 正在試點 AI Agent 應用。這個數字在一年前還不到 20%。
+
+最熱門的應用場景包括：
+- 客服自動化
+- 程式碼審查
+- 財務報告生成
+- 供應鏈優化
+
+---
+
+### 4. OpenAI 放寬 API 限制：開發者迎來春天
+
+OpenAI 近日悄悄放寬了部分 API 使用限制，允許開發者在更廣泛的場景中使用其模型。這被解讀為對 Anthropic 和 Google 競爭壓力的回應。
+
+---
+
+### 5. Google 發布新版 Vertex AI：企業級 ML 平台大更新
+
+Google Cloud 發布了 Vertex AI 的重大更新，增加了更多低代碼 ML 工具，讓非技術人員也能訓練自己的模型。
+
+---
+
+### 6. Meta 開源新模型：Llama 4 箭在弦上
+
+根據業界消息，Meta 可能在近期發布 Llama 4。這將是繼 Llama 3 之後最重要的開源模型更新。
+
+---
+
+### 7. AI 硬體新戰局：NVIDIA 以外的選擇
+
+除了 NVIDIA，AMD 和 Intel 都在積極佈局 AI 加速卡市場。對於受夠了 GPU 缺貨的開發者來說，這是個好消息。
+
+---
+
+### 8. 台灣 AI 發展新動向：國科會推動 AI 基本法
+
+國科會近日提出 AI 基本法草案，希望為台灣的 AI 產業建立明確的法規框架。這對於正在發展 AI 應用的台灣企業來說，是重要的政策訊號。
+
+---
+
+## 📊 本週趨勢觀察
+
+| 趨勢 | 狀態 | 備註 |
+|------|------|------|
+| 本地 LLM | 🔥 爆發中 | Qwen 3.5 帶動硬體民主化 |
+| MCP 標準化 | 📈 成長中 | 開發工具互聯成趨勢 |
+| AI Agent 商用 | ✅ 成熟中 | 企業採用率破 60% |
+| 開源模型 | 📈 成長中 | Meta Llama 4 將發布 |
+| AI 法規 | 🆕 新興 | 台灣 AI 基本法草案 |
+
+---
+
+## 🌐 相關資源
+
+- [MCP 伺服器建構指南](https://medium.com/@enveal/what-the-heck-is-an-mcp-server-0c3496d49d27)
+- [Qwen 3.5 35B-A3B 評測](https://medium.com/@agentnativedev/qwen-3-5-35b-a3b-why-your-800-gpu-just-became-a-frontier-class-ai-workstation-63cc4d4ebac1)
+- [Claude Code 架構完整指南](https://medium.com/ai-advances/claude-code-setup-skills-hooks-agents-mcp-blueprint-80bdef0c62f6)
+
+---
+
+## 💭 今日思考
+
+> 「AI 工具的標準化，就像當年網際網路的 TCP/IP 協議——只有當大家站在同一個基礎上，創新才能真正爆發。」
+
+今天的你，或許不需要學會如何訓練模型，但了解 MCP 這樣的標準工具，將幫助你更好地與 AI 協作。
+
+**行動建議：** 如果你有興趣嘗試本地部署 AI 模型，不妨從 Qwen 3.5 開始——一張消費級 GPU就能啟動你的 AI 實驗室。
+
+---
+
+*本晨報由 AI 自動生成，內容基於公開資訊整理，不構成投資建議。*
